@@ -1,0 +1,90 @@
+body {
+  height: 100vh;
+  background-color: #015869;
+}
+
+h1 {
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-weight: 700;
+  font-size: 5rem;
+  padding-top: 5%;
+  color: #FFF;
+}
+
+h2 {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 2.2rem;
+  font-weight: 400;
+  padding-top: 3%;
+  color: #FFF;
+}
+
+.button {
+  background-color: #b1fdf2;
+  -webkit-transition: background-color 0.2s;
+  transition: background-color 0.2s;
+  padding: 20px 40px;
+  margin: 20px;
+  font-size: 1.3rem;
+}
+
+.button:hover {
+  background-color: green;
+  font-size: 50ppx;
+}
+
+.word {
+  color: red;
+  display: inline;
+}
+
+.feeding {
+  -webkit-animation: color 1s infinite alternate ease-in-out;
+          animation: color 1s infinite alternate ease-in-out;
+}
+
+hr {
+  margin-top: 20px;
+  margin-bottom: 0;
+  border-top: 3px solid #ff0404;
+  width: 15%;
+  border-radius: 20px;
+  -webkit-animation: hrw 1s ease-in-out;
+          animation: hrw 1s ease-in-out;
+}
+
+@-webkit-keyframes color {
+  from {
+    color: #510253;
+  }
+  to {
+    color: #004e92;
+  }
+}
+
+@keyframes color {
+  from {
+    color: #510253;
+  }
+  to {
+    color: #004e92;
+  }
+}
+
+@-webkit-keyframes hrw {
+  from {
+    width: 0;
+  }
+  to {
+    width: 15%;
+  }
+}
+
+@keyframes hrw {
+  from {
+    width: 0;
+  }
+  to {
+    width: 15%;
+  }
+}
